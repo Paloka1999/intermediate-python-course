@@ -9,7 +9,7 @@ for i in range(0,dice_rolls):
     if roll == 1:
         print(f'You rolled a {roll}! Critical Fail')
     elif roll == dice_size:
-        print(f'You rolled a {roll}! Critical Success')
+        print(f'You rolled a {roll}! Critical Success!')
     else:
         print(f'You rolled a {roll}')
 print(f'YOu have rolled a total of {dice_sum}')
